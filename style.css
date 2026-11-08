@@ -1,0 +1,273 @@
+/* ==========================================
+   RÉINITIALISATION
+========================================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+/* ==========================================
+   BODY
+========================================== */
+
+body {
+
+    min-height: 100vh;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0f172a,
+            #1e293b
+        );
+
+    color: white;
+
+}
+
+
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.header {
+
+    text-align: center;
+
+    padding: 50px 20px 30px;
+
+}
+
+
+.header h1 {
+
+    font-size: 42px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.header p {
+
+    color: #cbd5e1;
+
+    font-size: 18px;
+
+}
+
+
+
+/* ==========================================
+   GALERIE
+========================================== */
+
+.gallery {
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: 40px auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(280px, 1fr)
+        );
+
+    gap: 30px;
+
+}
+
+
+
+/* ==========================================
+   CARTE DE JEU
+========================================== */
+
+.game-card {
+
+    background: #1e293b;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.4);
+
+    transition:
+        transform 0.3s,
+        box-shadow 0.3s;
+
+}
+
+
+.game-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 20px 40px
+        rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+/* ==========================================
+   IMAGE
+========================================== */
+
+.game-card img {
+
+    width: 100%;
+
+    height: 200px;
+
+    object-fit: cover;
+
+    display: block;
+
+}
+
+
+
+/* ==========================================
+   CONTENU
+========================================== */
+
+.game-content {
+
+    padding: 25px;
+
+}
+
+
+.game-content h2 {
+
+    margin-bottom: 15px;
+
+    font-size: 25px;
+
+}
+
+
+.game-content p {
+
+    color: #cbd5e1;
+
+    line-height: 1.6;
+
+    min-height: 70px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* ==========================================
+   BOUTON
+========================================== */
+
+.game-content button {
+
+    width: 100%;
+
+    padding: 13px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition:
+        background 0.3s,
+        transform 0.2s;
+
+}
+
+
+.game-content button:hover {
+
+    background: #1d4ed8;
+
+    transform: scale(1.03);
+
+}
+
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer {
+
+    text-align: center;
+
+    padding: 30px 20px;
+
+    margin-top: 50px;
+
+    color: #94a3b8;
+
+}
+
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 600px) {
+
+    .header h1 {
+
+        font-size: 30px;
+
+    }
+
+
+    .header p {
+
+        font-size: 16px;
+
+    }
+
+
+    .gallery {
+
+        width: 92%;
+
+    }
+
+}

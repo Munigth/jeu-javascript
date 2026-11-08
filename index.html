@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>🎮 Ma Galerie de Jeux</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================
+         EN-TÊTE
+    ====================================== -->
+
+    <header class="header">
+
+        <h1>🎮 Ma Galerie de Jeux</h1>
+
+        <p>
+            Bienvenue dans ma collection de petits jeux
+            développés en HTML, CSS et JavaScript.
+        </p>
+
+    </header>
+
+
+
+    <!-- =====================================
+         GALERIE
+    ====================================== -->
+
+    <main>
+
+        <section class="gallery" id="gallery">
+
+
+            <!-- =============================
+                 SNAKE
+            ============================== -->
+
+            <article class="game-card">
+
+                <img
+                    src="images/snake.png"
+                    alt="Jeu Snake"
+                >
+
+                <div class="game-content">
+
+                    <h2>🐍 Snake</h2>
+
+                    <p>
+                        Contrôle le serpent, mange les pommes
+                        et essaie d'obtenir le meilleur score.
+                    </p>
+
+                    <button
+                        onclick="jouer('snake')"
+                    >
+                        ▶ Jouer
+                    </button>
+
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =============================
+                 CAR RACE
+            ============================== -->
+
+            <article class="game-card">
+
+                <img
+                    src="images/car-race.jpg"
+                    alt="Jeu Car Race"
+                >
+
+                <div class="game-content">
+
+                    <h2>🏎️ Car Race</h2>
+
+                    <p>
+                        Évite les obstacles et conduis
+                        ta voiture le plus longtemps possible.
+                    </p>
+
+                    <button
+                        onclick="jouer('car')"
+                    >
+                        ▶ Jouer
+                    </button>
+
+
+                </div>
+
+            </article>
+
+            
+            <!-- =============================
+                 BOAT RACE
+            ============================== -->
+
+            <article class="game-card">
+
+                <img
+                    src="images/boat-race.webp"
+                    alt="Jeu Boat-race"
+                >
+
+                <div class="game-content">
+
+                    <h2>🚤 Boat Race</h2>
+
+                    <p>
+                        Évite les obstacles et conduis
+                        ton bateau le plus longtemps possible.
+                    </p>
+
+                    <button
+                        onclick="jouer('boat')"
+                    >
+                        ▶ Jouer
+                    </button>
+
+
+                </div>
+
+            </article>
+
+            <!-- =============================
+                 ARCHERY
+            ============================== -->
+
+            <article class="game-card">
+
+                <img
+                    src="images/archery.webp"
+                    alt="Jeu Archerie"
+                >
+
+                <div class="game-content">
+
+                    <h2>🏹 Archerie </h2>
+
+                    <p>
+                        balancer des flêches sur une cyble. 
+                    </p>
+
+                    <button
+                        onclick="jouer('archery')"
+                    >
+                        ▶ Jouer
+                    </button>
+
+
+                </div>
+
+            </article>
+
+                      
+            <!-- =============================
+                 ZUMA
+            ============================== -->
+
+            <article class="game-card">
+
+                <img
+                    src="images/zuma.jpg"
+                    alt="Jeu Zuma"
+                >
+
+                <div class="game-content">
+
+                    <h2>🔵🟢🔴🟡🟣 Zuma </h2>
+
+                    <p>
+                        balancer des boule sur une cyble. 
+                    </p>
+
+                    <button
+                        onclick="jouer('Zuma')"
+                    >
+                        ▶ Jouer
+                    </button>
+
+
+                </div>
+
+            </article>
+
+         <!-- =============================
+                 PONG
+            ============================== -->
+
+            <article class="game-card">
+
+                <img
+                    src="images/pong.jpg"
+                    alt="Jeu Pong"
+                >
+
+                <div class="game-content">
+
+                    <h2>🏓 Pong </h2>
+
+                    <p>
+                        jouer au Pong avec un ami.
+                    </p>
+
+                    <button
+                        onclick="jouer('Pong')"
+                    >
+                        ▶ Jouer
+                    </button>
+
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =============================
+                 TETRIS
+            ============================== -->
+
+            <article class="game-card">
+
+                <img
+                    src="images/tetris.png"
+                    alt="Jeu Tetris"
+                >
+
+                <div class="game-content">
+
+                    <h2>🧱 Tetris</h2>
+
+                    <p>
+                        Fais tomber les blocs et complète
+                        les lignes pour gagner des points.
+                    </p>
+
+                    <button
+                        onclick="jouer('tetris')"
+                    >
+                        ▶ Jouer
+                    </button>
+
+
+                </div>
+
+            </article>
+
+            <!-- =============================
+                 PACMAN
+            ============================== -->
+
+            <article class="game-card">
+
+                <img
+                    src="images/packman.jpg"
+                    alt="Jeu pacman"
+                >
+
+                <div class="game-content">
+
+                    <h2>👻  pacman</h2>
+
+                    <p>
+                       Pour suivre des fontomes.
+                    </p>
+
+                    <button
+                        onclick="jouer('pacman')"
+                    >
+                        ▶ Jouer
+                    </button>
+
+
+                </div>
+
+            </article>
+
+            <!-- =============================
+                 SUDOKU
+            ============================== -->
+
+            <article class="game-card">
+
+                <img
+                    src="images/sudoku.jpg"
+                    alt="Jeu Sudoku"
+                >
+
+                <div class="game-content">
+
+                    <h2>🧩 Sudoku</h2>
+
+                    <p>
+                        résoudre un case tête.
+                    </p>
+
+                    <button
+                        onclick="jouer('sudoku')"
+                    >
+                        ▶ Jouer
+                    </button>
+                 
+
+                </div>
+
+            </article>
+            
+            <!-- =============================
+                 millionnaire
+            ============================== -->
+
+            <article class="game-card">
+
+                <img
+                    src="images/millionnaire.jpg"
+                    alt="Jeu millionnaire"
+                >
+
+                <div class="game-content">
+
+                    <h2>🧩 millionnaire</h2>
+
+                    <p>
+                        réfléchir avec sa tête.
+                    </p>
+
+                    <button
+                        onclick="jouer('millionnaire')"
+                    >
+                        ▶ Jouer
+                    </button>
+                 
+
+                </div>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================
+         PIED DE PAGE
+    ====================================== -->
+
+    <footer>
+
+        <p>
+            © 2026 - Ma Galerie de Jeux
+        </p>
+
+        <p>
+            Créé avec HTML, CSS et JavaScript
+        </p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

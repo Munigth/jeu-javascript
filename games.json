@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Snake",
+        "image": "images/snake.png",
+        "description": "Jeu du serpent",
+        "url": "D:/code/CODE HTML/projet web javascript game/GalerieJeux/snake/index.html"
+    },
+    {
+        "name": "Car Race",
+        "image": "images/car-race.jpg",
+        "description": "Jeu de course",
+        "url": "D:/code/CODE HTML/projet web javascript game/GalerieJeux/car/index.html"
+    },
+    {
+        "name": "Tetris",
+        "image": "images/tetris.png",
+        "description": "Jeu de blocs",
+        "url": "D:/code/CODE HTML/projet web javascript game/GalerieJeux/tetris/index.html"
+    }
+]
